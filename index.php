@@ -13,7 +13,6 @@
             Catch me, I'm the one on the run away from the headlights
             No sleep, up all week wasting time with people I don't like
             I think something's fucking wrong with me
-
             Drown myself in alcohol, that shit never helps at all
             I might say some stupid things tonight when you pick up this call
             I've been hearing silence on the other side for way too long";
@@ -22,11 +21,9 @@
             Catch me, I'm the one on the run away from the headlights
             No sleep, up all week wasting time with people I don't like
             I think something's fucking wrong with me
-
             Drown myself in alcohol, that shit never helps at all
             I might say some stupid things tonight when you pick up this call
             I've been hearing silence on the other side for way too long";
-
         $text_change= str_replace($bad_word, '***', $song_bad);
     ?>
 
