@@ -27,11 +27,11 @@
         $text_change= str_replace($bad_word, '***', $song_bad);
     ?>
 
-    <h1>Song Machine Gun Kelly- I Think I'm Okay:</h1>
+    <h1>Song Machine Gun Kelly- I Think I'm Okay</h1>
     <h3>Text: <?php echo $song ?></h3>
+    <p>Text length: <?php echo strlen($song) ?></p>
     <h3>Text Censurate: <?php echo $text_change ?></h3>
-
-
+    <p>Text Censurate length: <?php echo strlen($text_change) ?></p>
 
 </body>
 </html>
